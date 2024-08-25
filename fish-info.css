@@ -1,0 +1,398 @@
+
+#container-1{
+	         border:1px solid white;
+	        height:660px;
+	        width:100%;
+	        background-color:#FAF7EF;
+	        background-image:url("image/fish-back.jpg");
+	        background-repeat: no-repeat;
+           background-attachment:scroll;
+           background-size: 100% 100%;
+           overflow-x:hidden;	        
+}
+
+#info-1{
+	     border:0px solid red;
+	     height:100px;
+	     width:20%;
+	     margin-left:60px;
+	     margin-top:-360px;
+}
+
+#menu{
+	  border:0px solid black;
+	  height:100px;
+	  width:45%;
+	  margin-top:-90px;
+	  margin-left:370px;
+}
+
+
+ul{
+   list-style-type:none;
+         margin:20px;
+         padding:0;
+         overflow:hidden;
+
+         
+}
+
+li{
+     float:left;
+     padding:0px;
+
+ }
+
+li a{
+         display:block;
+         color:black;
+         text-align:center;
+         padding: 14px 16px;
+         text-decoration:none;
+         margin-top:-10px;
+         font-size:25px;
+         font-family:cursive;
+         margin-left:10px;
+         text-shadow: 2px 2px  4px grey
+
+      }
+      
+
+  li a:hover:not(active){
+            color:blue;
+      }
+
+     .active{
+          color: red;
+       }
+
+       #addoption-form{
+	       border:0px solid red;
+	      height:100px;
+	      width:23%;
+	      margin-top:-100px;
+	     margin-left:1099px;
+
+}
+
+#btn{
+	 border-radius: 30px; 
+	 border:1px solid #E1D183;
+	 height:55px;
+	 width:70%;
+	 margin-top:-9px;
+	 background-color:#E0DFE2;
+	 box-shadow:2px 2px  6px grey;
+}
+
+#btn:hover{
+	       border:2px solid red;
+	       color:blue;
+}
+
+
+#head{
+	  font-size:45px;
+	  margin-left:110px;
+	  margin-top:270px;
+	   font-family:cursive;
+	   text-shadow:2px 2px 6px grey;
+	   color:#ddd;
+}
+
+#head-2{
+	  border:1px solid white;
+	  height:1420px;
+	  width:100%;
+	  margin-top:10px;
+}
+
+#fish-row1{
+	      border:0px solid black;
+	      height:400px;
+	      width:20%;
+          margin-top:40px;
+	      margin-left:62px;
+	      float:left;
+	       transition: margin 0.2s ease-in-out;
+	       margin-right:2px;
+	      box-shadow: 0 4px 8px 0 rgba(0 , 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#fish-row1:hover{
+	     margin-top:2px;
+}
+#fish-row2{
+	      border:0px solid black;
+	      height:400px;
+	      width:20%;
+          margin-top:40px;
+	      margin-left:54px;
+	      float:left;
+	       transition: margin 0.2s ease-in-out;
+	       margin-right:2px;
+	      box-shadow: 0 4px 8px 0 rgba(0 , 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#fish-row2:hover{
+	     margin-top:2px;
+}
+
+#fish-row3{
+	      border:0px solid black;
+	      height:400px;
+	      width:20%;
+          margin-top:40px;
+	      margin-left:56px;
+	      float:left;
+	      transition: margin 0.2s ease-in-out;
+	      margin-right:2px;
+	      box-shadow: 0 4px 8px 0 rgba(0 , 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#fish-row3:hover{
+	     margin-top:2px;
+}
+/*#fish-row4{
+	      border:0px solid black;
+	      height:405px;
+	      width:20%;
+          margin-top:40px;
+	      margin-left:35px;
+	      float:left;
+	      box-shadow: 0 4px 8px 0 rgba(0 , 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+*/
+#fish-row5{
+	      border:0px solid black;
+	      height:400px;
+	      width:20%;
+          margin-top:40px;
+	      margin-left:67px;
+	      float:left;
+	       transition: margin 0.2s ease-in-out;
+	       margin-right:2px;
+	      box-shadow: 0 4px 8px 0 rgba(0 , 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#fish-row5:hover{
+	     margin-top:2px;
+}
+
+#head2{
+	  border:0px solid black;
+	  width:100%;
+	  height:470px;
+	  margin-top:470px;
+}
+
+#fish-row6{
+	      border:0px solid black;
+	      height:380px;
+	      width:25%;
+          margin-top:50px;
+	      margin-left:130px;
+	      float:left;
+	       transition: margin 0.2s ease-in-out;
+	       margin-right:2px;
+	       box-shadow: 0 4px 8px 0 rgba(0 , 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#fish-row6:hover{
+	     margin-top:2px;
+}
+
+#fish-row7{
+	      border:0px solid black;
+	      height:380px;
+	      width:25%;
+          margin-top:50px;
+	      margin-left:40px;
+	      float:left;
+	       transition: margin 0.2s ease-in-out;
+	       margin-right:2px;
+	       box-shadow: 0 4px 8px 0 rgba(0 , 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+#fish-row7:hover{
+	     margin-top:2px;
+}
+
+#fish-row8{
+	      border:0px solid black;
+	      height:380px;
+	      width:25%;
+          margin-top:50px;
+	      margin-left:40px;
+	      float:left;
+	       transition: margin 0.2s ease-in-out;
+	       margin-right:2px;
+	      box-shadow: 0 4px 8px 0 rgba(0 , 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	 }
+ #fish-row8:hover{
+	     margin-top:2px;
+}
+
+#head3{
+	 border:0px solid black;
+	  width:100%;
+	  height:460px;
+	  margin-top:10px;
+
+}
+
+#fish-row9{
+	      border:0px solid black;
+	      height:400px;
+	      width:20%;
+          margin-top:28px;
+	      margin-left:62px;
+	      float:left;
+	       transition: margin 0.2s ease-in-out;
+	       margin-right:2px;
+	      box-shadow: 0 4px 8px 0 rgba(0 , 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#fish-row9:hover{
+	     margin-top:2px;
+}
+
+#fish-row10{
+	      border:0px solid black;
+	      height:400px;
+	      width:20%;
+          margin-top:28px;
+	      margin-left:62px;
+	      float:left;
+	       transition: margin 0.2s ease-in-out;
+	       margin-right:2px;
+	      box-shadow: 0 4px 8px 0 rgba(0 , 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#fish-row10:hover{
+	     margin-top:2px;
+}
+
+#img1{
+	  height:180px;
+	  width:100%;
+	  /*margin-left:36px;*/
+	  margin-top:40px;
+}
+
+#img2{
+	  height:200px;
+	  width:100%;
+	  /*margin-left:36px;*/
+	  margin-top:40px;
+}
+
+#heart{
+	   border-radius:10px;
+	  border:0px solid black;
+	  height:27px;
+	  width:12%;
+	  background-color:#ddd;
+	  margin-left:36px;
+	  margin-top:-220px;
+}
+#heart:hover{
+	   background-color:purple; 
+}
+
+
+.material-icons{
+	        color:black;
+	       /* font-size:16px;*/
+	       margin-left:6px;
+	        margin-top:5px
+}
+.material-icons:hover{
+	         color:white
+}
+
+#fish_name{
+	   font-size:24px;
+	   margin-top:200px;
+	   font-family:serif;
+}
+
+#fish_name1{
+	   font-size:24px;
+	   margin-top:223px;
+	   font-family:serif;
+}
+
+#fish_name1{
+	   font-size:24px;
+	   margin-top:223px;
+	   font-family:serif;
+}
+#heart1{
+	   border-radius:10px;
+	  border:0px solid black;
+	  height:28px;
+	  width:9%;
+	  background-color:#ddd;
+	  margin-left:36px;
+	  margin-top:-240px;
+}
+#heart1:hover{
+	   background-color:purple; 
+}
+
+#container-8{
+	      border:1px solid black;
+	      height:470px;
+	      width:100%;
+	      margin-top:0px;
+	      background-color:#081420;
+}
+
+#hero{
+	  border:1px solid #081420;
+	  width:25%;
+	  height:300px;
+	  margin-top:70px;
+	  margin-left:20px;
+
+}
+
+#lo{
+	border-radius:5px;
+	border:0px solid white;
+	height:60px;
+	width: 45%;
+	margin-top:60px;
+	margin-left:50px;
+	background-color:white;
+}
+
+#information{
+	        border:1px solid #081420;
+	        height:350px;
+	        width:48%;
+	        margin-left:422px;
+	        margin-top:-300px;
+}
+
+#contact{
+	     border:1px solid #081420;
+	     height:300px;
+	     width:19%;
+	     margin-left:1170px;
+	     margin-top:-350px;
+}
+
+#Categeory{
+	       border:1px solid #081420;
+	       height:320px;
+	       width:27%;
+	       margin-top:10px;
+	       margin-left:25px;
+	        float:left;
+}
+
+#C-i{
+	       border:1px solid #081420;
+	       height:320px;
+	       width:33%;
+	       margin-top:10px;
+	       margin-left:25px;
+	        float:left;
+}
+
+

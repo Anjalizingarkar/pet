@@ -1,0 +1,840 @@
+
+
+/*container-1*/
+#container-1{
+	         border:0px solid black;
+	         height:700px;
+	         width:100%;
+	         background-color:#FAF7EF;
+	        background-image:url("image/dog-bg2.jpg");
+	       background-repeat: no-repeat;
+           background-attachment:scroll;
+           background-size: 100% 100%;
+           overflow-x:hidden;
+	        
+}
+
+#logo{ 
+	border:0px solid red;
+	height:100px;
+	width:18%;
+	margin-top:10px;
+	margin-left:35px;
+
+}
+
+#menu{
+	 border:0px solid red;
+	 height:100px;
+	 width:45%;
+	 margin-top:-80px;
+	 margin-left:370px;
+}
+
+ul{
+   list-style-type:none;
+         margin:20px;
+         padding:0;
+         overflow:hidden;
+
+         
+}
+
+li{
+     float:left;
+     padding:0px;
+
+ }
+
+li a{
+       display:block;
+         color:black;
+         text-align:center;
+         padding: 14px 16px;
+         text-decoration:none;
+         margin-top:-10px;
+         font-size:25px;
+         font-family:cursive;
+         margin-left:10px;
+         text-shadow: 2px 2px  4px grey
+
+      }
+      
+
+  li a:hover:not(active){
+            color:blue;
+      }
+
+     .active{
+          color: red;
+       }
+
+
+
+#addoption-form{
+	       border:0px solid red;
+	      height:60px;
+	      width:23%;
+	      margin-top:-100px;
+	     margin-left:1140px;
+
+
+}
+#btn{
+	 border-radius: 30px; 
+	 border:1px solid #E1D183;
+	 height:55px;
+	 width:70%;
+	 margin-top:-9px;
+	 background-color:#E0DFE2;
+	 box-shadow:2px 2px  6px grey;
+}
+
+#btn:hover{
+	       border:2px solid red;
+	       color:blue;
+}
+
+#heading1{
+	    font-size:47px;
+	    margin-top:150px;
+	    margin-left:50px;
+	    font-family:cursive;
+	    text-shadow:2px 2px 6px grey;
+}
+
+#para1{
+	   font-size:19px;
+	   font-family:cursive;
+	   margin-left:90px;
+}
+
+
+#dog-smile{
+	      border-radius:600px;
+	     border:4px outset red;
+	     width:3.7%;
+	     height:53px;
+	     margin-left:400px;
+	     margin-top:-40px;
+	     box-shadow:2px 2px 3px grey;
+	     
+}
+/*#dog-smile:hover{
+	 box-shadow:2px 2px 0px grey;
+
+}
+*/
+#b2{
+	height:75px;
+	width:155%;
+	margin-left:-16px;
+	margin-top:-8px;
+	
+}
+
+
+
+#wave{
+	  border:0px solid red;
+	  height:120px;
+	  width:100%;
+	  margin-top: -70px;
+
+}
+
+/*container-2*/
+
+#container-2{
+	        border:0px solid black;
+	        height:1740px;
+	        width:100%;
+	        margin-top:38px;
+	     
+	      }
+
+
+#dog-row1{
+	     border-radius:30px;
+	     border:1px solid #E74C3C ;
+	     height:527px;
+	     width:23%;
+	     margin-top:30px;
+	     margin-left:23px;	
+	     float:left;
+	     box-shadow:0px 1px 3px grey;
+	     
+	     /*box-shadow:2px 2px 2px 1px #ddd;*/
+}
+
+
+
+#img-box{
+	    border-radius:810px;
+	    border:6px solid #ddd;
+	    height:205px;
+	     width:60.5%;
+	     margin-left:55px;
+	     margin-top:20px;
+	     border-top-color:#333; 
+	     border-bottom-color:#333;
+	     animation:rotate 0s infinite;
+	     
+}
+
+@keyframes rotate{
+	100%{
+		rotate:360deg;
+	}
+}
+
+#dog{
+	 height:140px;
+	 width:65%;
+	 margin-top:25px;
+	  margin-left:34px;
+	  
+}
+
+#d-name{
+	   font-size:25px;
+	   margin-left:60px;
+	   font-family:nonmar;
+	   text-shadow:2px 2px 5px grey;
+
+}
+
+#d-name3{
+	   font-size:25px;
+	   margin-left:90px;
+	   font-family:nonmar;
+	   text-shadow:2px 2px 5px grey;
+
+}
+
+#d-name4{
+	   font-size:25px;
+	   margin-left:107px;
+	   font-family:nonmar;
+	   text-shadow:2px 2px 5px grey;
+	   
+}
+
+#d-name5{
+	   font-size:25px;
+	   margin-left:120px;
+	   font-family:nonmar;
+	   text-shadow:2px 2px 5px grey;
+	   
+}
+
+
+#d-name6{
+	   font-size:25px;
+	   margin-left:80px;
+	   font-family:nonmar;
+	   text-shadow:2px 2px 5px grey;
+	   
+}
+
+#small-div1{
+	     border:1px solid white;
+	    height:62px;
+	    width:28%;
+	    margin-left:50px;
+	    margin-top:-5px;
+}
+
+#small-div2{
+	     border:1px solid white;
+	    height:62px;
+	    width:28%;
+	    margin-left:180px;
+	    margin-top:-62px;
+}
+
+#p1{
+	  margin-left:20px;
+	  margin-top:3px;
+}
+
+#p2{
+	  margin-left:20px;
+	  margin-top:-12px;
+}
+
+#review{
+	    border:0px solid black;
+	    height:105px;
+	    width:100%;
+}
+
+/*Labrador Retriever*/
+
+#blue-1{
+	 border-radius:80px;
+	 border:3px solid blue;
+	 height:70px;
+	 width:20%;
+	 float:left;
+	 margin-left:32px;
+	 margin-top:5px;
+	
+
+}
+
+#green-2{
+	 border-radius:80px;
+	 border:3px solid green;
+	 height:70px;
+	 width:20%;
+	 float:left;
+	 margin-left:32px;
+	 margin-top:5px;
+	/* border-top-color:green;
+	 border-right-color:green;
+	 border-bottom-color:green;
+*/
+}
+
+#pink-3{
+	 border-radius:80px;
+	 border:3px solid #ddd;
+	 height:70px;
+	 width:20%;
+	 float:left;
+	 margin-left:32px;
+	 margin-top:5px;
+	 border-top-color:#F30CC9;
+	 border-right-color:#F30CC9;
+	 border-bottom-color:#F30CC9;
+
+}
+
+/*Labrador Retriever end*/
+/*Labrador Retriever*/
+#blue-4{
+	 border-radius:80px;
+	 border:3px solid blue;
+	 height:70px;
+	 width:20%;
+	 float:left;
+	 margin-left:32px;
+	 margin-top:5px;
+	/*border-top-color:#2382F4;
+	 border-right-color:#2382F4;*/
+
+}
+
+#green-5{
+	 border-radius:80px;
+	 border:3px solid #ddd;
+	 height:70px;
+	 width:20%;
+	 float:left;
+	 margin-left:20px;
+	 margin-top:5px;
+	 border-top-color:green;
+	 border-right-color:green;
+	 border-bottom-color:green;
+
+}
+
+#pink-6{
+	 border-radius:80px;
+	 border:3px solid #ddd;
+	 height:70px;
+	 width:20%;
+	 float:left;
+	 margin-left:20px;
+	 margin-top:5px;
+	 border-top-color:#F30CC9;
+	 border-right-color:#F30CC9;
+	 
+}
+/*GLabrador Retriever*/
+/*Golden Retriever*/
+#blue-7{
+	 border-radius:80px;
+	 border:3px solid blue;
+	 height:70px;
+	 width:20%;
+	 float:left;
+	 margin-left:32px;
+	 margin-top:5px;
+}
+
+#green-8{
+	 border-radius:80px;
+	 border:3px solid green;
+	 height:70px;
+	 width:20%;
+	 float:left;
+	 margin-left:32px;
+	 margin-top:5px;
+}
+
+#pink-9{
+	 border-radius:80px;
+	 border:3px solid #ddd;
+	 height:70px;
+	 width:20%;
+	 float:left;
+	 margin-left:32px;
+	 margin-top:5px;
+	 border-top-color:#F30CC9;
+	 border-right-color:#F30CC9;
+	 border-bottom-color:#F30CC9;
+
+}
+/*Golden Retriever end*/
+/*Pembroke Welsh Corgi*/
+
+#blue-10{
+	 border-radius:80px;
+	 border:3px solid #ddd;
+	 height:70px;
+	 width:20%;
+	 float:left;
+	 margin-left:20px;
+	 margin-top:5px;
+	border-top-color:blue;
+	 border-right-color:blue;
+	 /*border-bottom-color:blue;
+*/
+}
+
+#green-11{
+	 border-radius:80px;
+	 border:3px solid #ddd;
+	 height:70px;
+	 width:20%;
+	 float:left;
+	 margin-left:32px;
+	 margin-top:5px;
+	 border-top-color:green;
+	 border-right-color:green;
+	 border-bottom-color:green;
+
+}
+#pink-12{
+	 border-radius:80px;
+	 border:3px solid #ddd;
+	 height:70px;
+	 width:20%;
+	 float:left;
+	 margin-left:32px;
+	 margin-top:5px;
+	 border-top-color:#F30CC9;
+	 border-right-color:#F30CC9;
+	 border-bottom-color:#F30CC9;
+
+}
+
+/*Pembroke Welsh Corgi end*/
+
+/*Rottweiler*/
+
+#blue-13{
+	 border-radius:80px;
+	 border:3px solid #ddd;
+	 height:70px;
+	 width:20%;
+	 float:left;
+	 margin-left:20px;
+	 margin-top:5px;
+	 border-top-color:blue;
+	 border-right-color:blue;
+	 
+}
+
+#green-14{
+	 border-radius:80px;
+	 border:3px solid #ddd;
+	 height:70px;
+	 width:20%;
+	 float:left;
+	 margin-left:20px;
+	 margin-top:5px;
+	 border-top-color:green;
+	 border-right-color:green;
+	 
+}
+
+#pink-15{
+	 border-radius:80px;
+	 border:3px solid #ddd;
+	 height:70px;
+	 width:20%;
+	 float:left;
+	 margin-left:20px;
+	 margin-top:5px;
+	 border-top-color:#F30CC9;
+	 border-right-color:#F30CC9;
+	 
+}
+
+/* Rottweiler end*/
+/*Pomeranianr*/
+
+#blue-16{
+	 border-radius:80px;
+	 border:3px solid #ddd;
+	 height:70px;
+	 width:20%;
+	 float:left;
+	 margin-left:20px;
+	 margin-top:5px;
+	 border-top-color:blue;
+	 border-right-color:blue;
+	 
+}
+
+#green-17{
+	 border-radius:80px;
+	 border:3px solid #ddd;
+	 height:70px;
+	 width:20%;
+	 float:left;
+	 margin-left:20px;
+	 margin-top:5px;
+	 border-top-color:green;
+	 /*border-right-color:blue;*/
+	 
+}
+
+
+
+#pink-18{
+	 border-radius:80px;
+	 border:3px solid #ddd;
+	 height:70px;
+	 width:20%;
+	 float:left;
+	 margin-left:20px;
+	 margin-top:5px;
+	 border-top-color:#F30CC9;
+	 border-right-color:#F30CC9;
+	 
+}
+/*Pomeranianr end*/
+/*Chinook*/
+#blue-19{
+	 border-radius:80px;
+	 border:3px solid #ddd;
+	 height:70px;
+	 width:20%;
+	 float:left;
+	 margin-left:20px;
+	 margin-top:5px;
+	 border-top-color:blue;
+	 border-right-color:blue;
+	 border-bottom-color:blue
+*/
+}
+
+#green-20{
+	 border-radius:80px;
+	 border:3px solid #ddd;
+	 height:70px;
+	 width:20%;
+	 float:left;
+	 margin-left:20px;
+	 margin-top:5px;
+	border-top-color:green;
+	 border-right-color:green;
+	 border-bottom-color:green;
+
+}
+
+#pink-21{
+	 border-radius:80px;
+	 border:3px solid #ddd;
+	 height:70px;
+	 width:20%;
+	 float:left;
+	 margin-left:20px;
+	 margin-top:5px;
+	 border-top-color:#F30CC9;
+	 border-right-color:#F30CC9;
+	 
+}
+/*Chinook end*/
+/*Japanese Chin*/
+#blue-22{
+	 border-radius:80px;
+	 border:3px solid #ddd;
+	 height:70px;
+	 width:20%;
+	 float:left;
+	 margin-left:20px;
+	 margin-top:5px;
+	 /*border-top-color:blue;*/
+	 border-right-color:blue;
+	/* border-bottom-color:blue;
+*/
+}
+
+#green-23{
+	 border-radius:80px;
+	 border:3px solid #ddd;
+	 height:70px;
+	 width:20%;
+	 float:left;
+	 margin-left:20px;
+	 margin-top:5px;
+	/* border-top-color:green;*/
+	 border-right-color:green;
+	 
+}
+
+#pink-24{
+	 border-radius:80px;
+	 border:3px solid #ddd;
+	 height:70px;
+	 width:20%;
+	 float:left;
+	 margin-left:20px;
+	 margin-top:5px;
+	 border-top-color:#F30CC9;
+     border-right-color:#F30CC9;
+   /* border-bottom-color:#F30CC9;*/
+
+}
+
+/*Japanese Chin end*/
+/*Coton de Tulear*/
+
+#blue-25{
+	 border-radius:80px;
+	 border:3px solid #ddd;
+	 height:70px;
+	 width:20%;
+	 float:left;
+	 margin-left:20px;
+	 margin-top:5px;
+	 border-top-color:blue;
+	 border-right-color:blue;
+	 border-bottom-color:blue;
+	 
+}
+
+#green-26{
+	 border-radius:80px;
+	 border:3px solid #ddd;
+	 height:70px;
+	 width:20%;
+	 float:left;
+	 margin-left:20px;
+	 margin-top:5px;
+	 border-right-color:green;
+	 border-top-color:green;
+	}
+
+#pink-27{
+	 border-radius:80px;
+	 border:3px solid #ddd;
+	 height:70px;
+	 width:20%;
+	 float:left;
+	 margin-left:20px;
+	 margin-top:5px;
+	 border-right-color:#F30CC9;
+	}
+/*Coton de Tulear end*/
+/*Chow Chow*/
+#blue-28{
+	 border-radius:80px;
+	 border:3px solid #ddd;
+	 height:70px;
+	 width:20%;
+	 float:left;
+	 margin-left:20px;
+	 margin-top:5px;
+	 border-top-color:blue;
+	 /*border-right-color:blue;
+	 border-bottom-color:blue;*/
+	 
+}
+
+#green-29{
+	 border-radius:80px;
+	 border:3px solid #ddd;
+	 height:70px;
+	 width:20%;
+	 float:left;
+	 margin-left:20px;
+	 margin-top:5px;
+	border-right-color:green;
+	/* border-top-color:green;*/
+	}
+
+#pink-30{
+	 border-radius:80px;
+	 border:3px solid #ddd;
+	 height:70px;
+	 width:20%;
+	 float:left;
+	 margin-left:20px;
+	 margin-top:5px;
+	 border-top-color:#F30CC9;
+	 border-right-color:#F30CC9;
+	/* border-right-color:#F30CC9;*/
+	}
+/*Chow Chow end*/
+
+/*Great Pyrenees*/
+#blue-31{
+	 border-radius:80px;
+	 border:3px solid #ddd;
+	 height:70px;
+	 width:20%;
+	 float:left;
+	 margin-left:20px;
+	 margin-top:5px;
+	 /*border-top-color:blue;*/
+	 border-right-color:blue;
+	/* border-bottom-color:blue;*/
+	 
+}
+
+#green-32{
+	 border-radius:80px;
+	 border:3px solid green;
+	 height:70px;
+	 width:20%;
+	 float:left;
+	 margin-left:20px;
+	 margin-top:5px;
+	/*border-right-color:green;*/
+	/* border-top-color:green;*/
+	}
+
+#pink-33{
+	 border-radius:80px;
+	 border:3px solid #ddd;
+	 height:70px;
+	 width:20%;
+	 float:left;
+	 margin-left:20px;
+	 margin-top:5px;
+	 border-top-color:#F30CC9;
+	 border-right-color:#F30CC9;
+	/* border-right-color:#F30CC9;*/
+	}
+/*Great Pyrenees end*/
+/*Samoyed*/
+	#blue-34{
+	 border-radius:80px;
+	 border:3px solid #ddd;
+	 height:70px;
+	 width:20%;
+	 float:left;
+	 margin-left:20px;
+	 margin-top:5px;
+	 border-top-color:blue;
+	 border-right-color:blue;
+	/* border-bottom-color:blue;*/
+	 
+}
+
+#green-35{
+	 border-radius:80px;
+	 border:3px solid #ddd;
+	 height:70px;
+	 width:20%;
+	 float:left;
+	 margin-left:20px;
+	 margin-top:5px;
+	border-right-color:green;
+    border-top-color:green;
+    border-bottom-color:green;
+	}
+
+#pink-36{
+	 border-radius:80px;
+	 border:3px solid #ddd;
+	 height:70px;
+	 width:20%;
+	 float:left;
+	 margin-left:20px;
+	 margin-top:5px;
+	 border-top-color:#F30CC9;
+	 border-right-color:#F30CC9;
+	/* border-right-color:#F30CC9;*/
+	}
+/*Samoyed end*/
+
+#ratting1{
+	    margin-left:30px;
+	    color:#585156;
+}
+
+#work{
+	  margin-top:30px;
+	  margin-left:10px;
+}
+
+#container-8{
+	      border:1px solid black;
+	      height:470px;
+	      width:100%;
+	      margin-top:0px;
+	      background-color:#081420;
+}
+
+#hero{
+	  border:1px solid #081420;
+	  width:25%;
+	  height:300px;
+	  margin-top:70px;
+	  margin-left:20px;
+
+}
+
+#lo{
+	border-radius:5px;
+	border:0px solid white;
+	height:60px;
+	width: 45%;
+	margin-top:60px;
+	margin-left:50px;
+	background-color:white;
+}
+
+#information{
+	        border:1px solid #081420;
+	        height:350px;
+	        width:48%;
+	        margin-left:422px;
+	        margin-top:-300px;
+}
+
+#contact{
+	     border:1px solid #081420;
+	     height:300px;
+	     width:19%;
+	     margin-left:1170px;
+	     margin-top:-350px;
+}
+
+#Categeory{
+	       border:1px solid #081420;
+	       height:320px;
+	       width:27%;
+	       margin-top:10px;
+	       margin-left:25px;
+	        float:left;
+}
+
+#C-i{
+	       border:1px solid #081420;
+	       height:320px;
+	       width:33%;
+	       margin-top:10px;
+	       margin-left:25px;
+	        float:left;
+}
+
+
+

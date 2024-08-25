@@ -1,0 +1,283 @@
+*body{
+	  margin: 0px;
+	 }
+
+main{
+	margin-right:0px;
+	padding:0px;
+}
+
+#container-1{
+	         border:0px solid black;
+	         height:860px;
+	         width:100%;
+	         background-color:#FAF7EF;
+	        background-image:url("image/p-orange.jpg");
+	       background-repeat: no-repeat;
+           background-attachment:scroll;
+           background-size: 100% 100%;
+           overflow-x:hidden;	        
+}
+#logo1{
+	   border:0px solid black;
+	   height:90px;
+	   width:20%;
+	   margin-top:-10px;
+	   margin-left:30px;
+	   float:left;
+}
+#logo2{
+	  height:70px; 
+	  width:60%;
+	 
+}
+#menu{
+	
+	  border:0px solid black;
+	  height:100px;
+	  width:45%;
+	  margin-top:-20px;
+	  margin-left:370px;
+}
+  
+
+
+
+
+ul{
+   list-style-type:none;
+         margin:20px;
+         padding:0;
+         overflow:hidden;
+
+         
+}
+
+li{
+     float:left;
+     padding:0px;
+
+ }
+
+li a{
+         display:block;
+         color:black;
+         text-align:center;
+         padding: 14px 16px;
+         text-decoration:none;
+         margin-top:22px;
+         font-size:25px;
+         font-family:cursive;
+         margin-left:10px;
+         text-shadow: 2px 2px  3px grey;
+
+      }
+      
+
+  li a:hover:not(active){
+            color:blue;
+      }
+
+     .active{
+          color: red;
+       }
+
+
+#addoption-form{
+	       border:0px solid red;
+	      height:100px;
+	      width:23%;
+	      margin-top:-90px;
+	     margin-left:1099px;
+
+}
+
+#btn{
+	 border-radius: 30px; 
+	 border:1px solid #E1D183;
+	 height:55px;
+	 width:70%;
+	 margin-top:10px;
+	 background-color:#E0DFE2;
+	 box-shadow:2px 2px  6px grey;
+}
+
+#btn:hover{
+	       border:2px solid red;
+	       color:blue;
+}
+
+
+#text-div1{
+	       border:0px solid black;
+	       height:330px;
+	       width:46%;
+	       margin-top:140px;
+	       margin-left: 300px;
+	       background-color:#FDB500;
+	      
+}
+
+#container-2{
+	         border:0px solid black;
+	         height:1210px;
+	         width:100%;
+	         margin-top:5px;
+
+}
+
+#p-img1{
+	 /*  border-radius:200px;*/
+	   border:2px solid #ddd;
+	   height:508px;
+	   width:22%;
+	   margin-top:60px;
+	   margin-left:33px;
+	   float:left;
+	   border-color: #ff0000 #00ff00 #0000ff rgb(250,0,255);
+	   box-shadow: 0 4px 8px 0 rgba(0 , 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+#p-img2{
+	 /*  border-radius:200px;*/
+	   border:2px solid #ddd;
+	   height:520px;
+	   width:22%;
+	   margin-top:50px;
+	   margin-left:33px;
+	   float:left;
+	   border-color: #ff0000 #00ff00 #0000ff rgb(250,0,255);
+	   box-shadow: 0 4px 8px 0 rgba(0 , 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+img{
+	   height:278px;
+	    width:87%;
+	    margin-top:20px;
+	    transition: transform .2s;
+	}
+	
+ 
+img:hover{
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  box-shadow: 2px 2px 3px grey;
+}
+
+#price{
+	   border:1px solid #ddd;
+	   height:70px;
+	   width:49%;
+	   margin-top:-5px;
+	   float:left;
+}
+ 
+ #para2{
+ 	   font-size:18px;
+ 	   color:grey;
+ 	   margin-top: 70px;
+ 	   text-align: center;
+
+ }
+
+#para3{
+ 	   font-size:18px;
+ 	   color:grey;
+ 	   margin-top:68px;
+ 	   text-align:center;
+
+ }
+
+#container-3{
+	        border:0px solid black;
+	        height:400px;
+	        width:100%;
+	         background-color:#FAF7EF;
+	        background-image:url("image/p-bg3.png");
+	       background-repeat: no-repeat;
+           background-attachment:scroll;
+           background-size: 100% 100%;
+           overflow-x:hidden;	     
+}
+
+
+#container-4{
+	        border:0px solid black;
+	        height:200px;
+	        width:100%;
+	         background-color:#FAF7EF;
+	        background-image:url("image/p-bg4.png");
+	       background-repeat: no-repeat;
+           background-attachment:scroll;
+           background-size: 100% 100%;
+           overflow-x:hidden;	     
+}
+
+#container-8{
+	      border:1px solid black;
+	      height:470px;
+	      width:100%;
+	      margin-top:0px;
+	      background-color:#081420;
+}
+
+#hero{
+	  border:1px solid #081420;
+	  width:25%;
+	  height:300px;
+	  margin-top:70px;
+	  margin-left:20px;
+
+}
+
+#lo{
+	border-radius:5px;
+	border:0px solid white;
+	height:63px;
+	width: 45%;
+	margin-top:60px;
+	margin-left:50px;
+	background-color:white;
+}
+
+#logo-img{
+	 height:60px;
+	 margin-top:2px;
+}
+
+#information{
+	        border:1px solid #081420;
+	        height:350px;
+	        width:48%;
+	        margin-left:422px;
+	        margin-top:-300px;
+}
+
+#contact{
+	     border:1px solid #081420;
+	     height:300px;
+	     width:19%;
+	     margin-left:1170px;
+	     margin-top:-350px;
+}
+
+#Categeory{
+	       border:1px solid #081420;
+	       height:320px;
+	       width:27%;
+	       margin-top:10px;
+	       margin-left:25px;
+	        float:left;
+}
+
+#C-i{
+	       border:1px solid #081420;
+	       height:320px;
+	       width:33%;
+	       margin-top:10px;
+	       margin-left:25px;
+	        float:left;
+}
+

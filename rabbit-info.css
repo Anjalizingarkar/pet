@@ -1,0 +1,282 @@
+*body{
+	  margin: 0px;
+	 }
+
+main{
+	margin-right:0px;
+	padding:0px;
+}
+
+#container-1{
+	         border:0px solid black;
+	         height:680px;
+	         width:100%;
+	         background-color:#FAF7EF;
+	        background-image:url("image/r-bg5.jpg");
+	       background-repeat: no-repeat;
+           background-attachment:scroll;
+           background-size: 100% 100%;
+           overflow-x:hidden;	        
+}
+
+#logo-1{
+	   border:0px solid black;
+	    height:100px;
+	    width:20%;
+	    margin-top:15px;
+	    margin-left:1150px;
+
+}
+
+#R-L{
+	     border:0px solid black;
+	     height:100px;
+	     width:20%;
+	     margin-left:30px;
+	     margin-top:-100px;
+
+}
+
+#menu{
+     border:0px solid black;
+	   height:100px;
+	   width:45%;
+	   margin-top:-100px;
+	   margin-left:400px;
+}
+
+ul{
+   list-style-type:none;
+         margin:20px;
+         padding:0;
+         overflow:hidden;
+
+         
+}
+
+li{
+     float:left;
+     padding:0px;
+
+ }
+
+li a{
+      display:block;
+         color:black;
+         text-align:center;
+         padding: 14px 16px;
+         text-decoration:none;
+         margin-top:-10px;
+         font-size:25px;
+         font-family:cursive;
+         margin-left:10px;
+         text-shadow: 2px 2px  4px grey
+
+      }
+      
+
+  li a:hover:not(active){
+            color:blue;
+      }
+
+     .active{
+          color: red;
+       }
+
+
+#addoption-form{
+	       border:0px solid red;
+	      height:100px;
+	      width:23%;
+	      margin-top:-100px;
+	     margin-left:1099px;
+
+}
+
+#btn{
+	 border-radius: 30px; 
+	 border:1px solid #E1D183;
+	 height:55px;
+	 width:70%;
+	 margin-top:-9px;
+	 background-color:#E0DFE2;
+	 box-shadow:2px 2px  6px grey;
+}
+
+#btn:hover{
+	       border:2px solid red;
+	       color:blue;
+}
+
+#container-2{
+	         border:0px solid red;
+	         height:1640px;
+	         width:100%;
+	        margin-top:5px;
+
+}
+
+#round1{
+	  /* border-radius:200px;*/
+	   border:3px solid #E3E5EC ;
+	   width:19%;
+	   height:280px;
+	   float:left;
+	   margin-left:55Px;
+	   margin-top:40px;
+	   
+
+}
+
+#rabbit-div{
+	       border:3px solid #ddd;
+	       height:480px;
+	       width:29%;
+	       float:left;
+	       margin-left:45.2px;
+	       margin-top:45px;
+	       box-shadow:0 4px 8px 0 rgba(0 , 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+}
+
+#rabbit-div:hover{
+	          
+	          border:3px solid green;
+	          
+}
+
+#img-r{
+	   border:0px solid red;
+	   height: 300px;
+	   width:85%;
+	   margin-top:18px;
+	   margin-left:30px;
+	   box-shadow: 0 4px 8px 0 rgba(0 , 0, 0, 0.2);
+
+	  }
+
+#r-name{ 
+       font-size:30px; 
+       font-family:cursive;
+       text-shadow:2px 2px 3px grey;
+}
+
+#rabbit-img{
+	     height:300px;
+	     width: 100%;
+}
+
+#info{
+	   border:0px solid black;
+	   height:70px;
+	   width:32.8%;
+	   margin-top:20px;
+	   float:left;
+
+}
+
+#r-price{
+	      color:grey;
+	     font-size:18px;
+	     margin-top:-25px;
+	     margin-left:18px;
+
+}
+
+#r-weight{
+	      color:grey;
+	     font-size:18px;
+	     margin-top:-25px;
+	     margin-left:0px;
+
+}
+
+#r-weight2{
+	      color:grey;
+	     font-size:18px;
+	     margin-top:-25px;
+	     margin-left:25px;
+
+}
+
+#r-life{
+	      color:grey;
+	     font-size:18px;
+	     margin-top:-25px;
+	     margin-left:0px;
+
+}
+
+#r-life2{
+	      color:grey;
+	     font-size:18px;
+	     margin-top:-25px;
+	     margin-left:24px;
+
+}
+
+#container-8{
+	      border:1px solid black;
+	      height:470px;
+	      width:100%;
+	      margin-top:0px;
+	      background-color:#081420;
+}
+
+#hero{
+	  border:1px solid #081420;
+	  width:25%;
+	  height:300px;
+	  margin-top:70px;
+	  margin-left:20px;
+
+}
+
+#lo{
+	border-radius:5px;
+	border:0px solid white;
+	height:63px;
+	width: 45%;
+	margin-top:60px;
+	margin-left:50px;
+	background-color:white;
+}
+
+#logo-img{
+	 height:60px;
+	 margin-top:2px;
+}
+
+#information{
+	        border:1px solid #081420;
+	        height:350px;
+	        width:48%;
+	        margin-left:422px;
+	        margin-top:-300px;
+}
+
+#contact{
+	     border:1px solid #081420;
+	     height:300px;
+	     width:19%;
+	     margin-left:1170px;
+	     margin-top:-350px;
+}
+
+#Categeory{
+	       border:1px solid #081420;
+	       height:320px;
+	       width:27%;
+	       margin-top:10px;
+	       margin-left:25px;
+	        float:left;
+}
+
+#C-i{
+	       border:1px solid #081420;
+	       height:320px;
+	       width:33%;
+	       margin-top:10px;
+	       margin-left:25px;
+	        float:left;
+}
+
